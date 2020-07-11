@@ -14,6 +14,8 @@ Simulate the minimum loss over a period of One Quarter that will occur with 1% p
 
 Here, we attempt to calculate VaR using the Parametric Method (Monte Carlo Simulation).
 
+# Drawback: This method assumes normality in returns.
+
 """
 
 import yfinance as yf
