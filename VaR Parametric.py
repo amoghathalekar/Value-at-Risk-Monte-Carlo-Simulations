@@ -33,7 +33,7 @@ for ticker in stocks:
 nifty_ret = ohlcv_data["^NSEI"]["Adj Close"].pct_change(1).dropna()
 nifty_ret
 
-# Checking Mean and Stanadard Deviation of the returns:
+# Checking Mean and Standard Deviation of the returns:
 mean = nifty_ret.mean()
 std = nifty_ret.std()
 print(mean,std)
