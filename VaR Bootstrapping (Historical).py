@@ -14,6 +14,8 @@ Simulate the minimum loss over a period of One Quarter that will occur with 1% p
 
 Here, we attempt to calculate VaR using the Bootstrapping Method (Monte Carlo Simulation).
 
+# NOTE: This method does not assume normality of returns.
+
 """
 
 import yfinance as yf
