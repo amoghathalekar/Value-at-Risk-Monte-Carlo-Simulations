@@ -1,6 +1,6 @@
 # Value-at-Risk-Monte-Carlo-Simulations
 
-There are two files in this repositiory. One uses the Parametric method for calculation of VaR. The other uses the Bootstrapping method for the simulations.
+There are two .py files in this repositiory. One uses the Parametric method for calculation of VaR. The other uses the Bootstrapping method for the simulations.
 
 Drawback of Parametric method: Assumes normality of returns.
 
